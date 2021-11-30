@@ -1,0 +1,129 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+.div{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+.div:hover {
+    width: 200px;
+    background-color: rgb(38, 224, 38);
+    color: white;
+    border-radius: 20px;
+    
+}
+.li {
+    list-style: none;
+}
+.fas, .far {
+    margin-right: 10px;
+    font-size: 25px;
+    line-height: 20px;
+    margin-top: 20px;
+    
+}
+.nibble {
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 10px 10px 40px;
+}
+.ww {
+    color: rgb(224, 152, 18);
+}
+.left-part {
+    /* border: 1px solid; */
+    width: 250px;
+    background-color: rgb(232, 247, 247);
+    border-radius: 10px;
+    height: 600px;
+}
+.mark {
+    position: relative;
+    bottom: -73px;
+    right: -37px;
+}
+.right-part {
+    position: absolute;
+    left: 330px;
+    top: 0;
+}
+#right_ul {
+    display: flex;
+    flex-direction: row;
+
+}
+#right_ul li {
+    margin-right: 50px;
+}
+li input {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(241, 239, 239);
+    border-color: rgb(241, 239, 239);
+}
+#filter ul {
+    margin-left: 40px;
+
+}
+#filter ul li {
+    list-style: none;
+    width: 130px;
+    border: 1px solid bl;
+    text-align: center;
+    height: 130px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.h2 {
+    font-size: 20px;
+    margin-left: 50px;
+}
+.pic {
+    position: absolute;
+    top: -150px;
+    left: 335px;
+}
+.pic img {
+    width: 300px;
+}
+.pict {
+    width: 300px;
+    position: absolute;
+    top: -150px;
+    left: 700px;
+} 
+
+ #filter ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+
+}
+#filter ul li {
+    border: 1px solid;
+    border-color: white;
+    text-align: center;
+    margin: 10px;
+    width: 130px;
+    /* background-color: lightblue; */
+}
+
+li {
+    list-style: none;
+}
+.product  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product div {
+    margin: 10px;
+}

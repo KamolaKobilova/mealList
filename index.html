@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="left-part">
+              <div class="nibble"><i class=" ww fas fa-hamburger"></i>Nibble</div>
+            <ul>
+                <div class="div"><i class="fas fa-home"></i> Home</div>
+                <div class="div"><i class="fas fa-align-justify"></i> Explore</div>
+                <div class="div"><i class="fas fa-utensils"></i> Foods</div>
+                <div class="div"><i class="far fa-bookmark"></i> Favourites</div>
+                <div class="div"><i class="far fa-list-alt"></i> Orders</div>
+                <div class="div"><i class="fas fa-comment-dots"></i> Messages</div>
+                <div class="div"><i class="fas fa-cog"></i> Settings</div>
+            </ul>
+            <div class="mark">
+                <h3><img src="./assets/Screen Shot 2021-11-26 at 1.26.19 PM.png" alt=""> Mark Clarke</h3>
+            </div>
+        </div>
+        <div class="right-part">
+             <ul id="right_ul">
+                 <li><img src="assets/loc.png" alt=""> San Francisco, California</li>
+                 <li><img src="./assets/bag.png" alt=""> Pick up</li>
+                 <li><img src="./assets/min.png" alt=""> Best deals</li>
+                 <li><input type="text" placeholder="Search for anything..." id = "search-input" style="height: 55px; margin-right: -10px;"></li>
+                 <button type = "submit" class = "search-btn btn" id ="search-btn">
+                  <i class = "fas fa-search"></i>
+                 <li><img src="./assets/blue.png" alt=""></li>
+                 <li><img src="./assets/baske.png" alt=""></li>
+             </ul>
+             <div class="explore">
+                 <div class="h2"><h3>Explore categories</h3></div>
+                 <!-- <h1 id="filter">
+                    <ul>
+                        <li class="cat_item"><img src="./assets/fire.png"> <h4>Breakfast</h4>  <span>$97</span></li>
+                        <li class="cat_item"><img src="./assets/lunch.png"> <h4>Food </h4><span>$324</span></li>
+                        <li class="cat_item"><img src="./assets/card.png"> <h4>Dinner</h4> <span>$203</span></li>
+                        <li class="cat_item"><img src="./assets/fork.png"><h4>Cheap</h4>  <span>$85</span></li>
+                        <li class="cat_item"><img src="./assets/mod.png"><h4>Moderate</h4> <span>$168</span></li>
+                        <li class="cat_item"><img src="./assets/exp.png"><h4>Expensive</h4><span>$250</span></li>
+                    </div>
+                    </ul>
+                 </h1> -->
+                 
+                 <h1 id="filter">
+                    <ul class="main_item">
+                        <li class="cat_item" value="All Menu"><img src="./assets/mod.png"><br>All Menu </li>
+                        <li class="cat_item"><img src="./assets/fire.png">Breakfast</li>
+                        <li class="cat_item"><img src="./assets/lunch.png">Lunchess</li>
+
+                        <li class="cat_item"><img src="./assets/card.png">Dinnerss</li>
+                        
+                        <li class="cat_item"><img src="./assets/card.png"><br> Moderate</li>
+                        
+                    </ul>
+                </h1>
+                
+                        <div class = "meal-search-box" style="display: none;">
+                          
+                            <i class = "fas fa-search"></i>
+                          </button>
+                        </div>
+                      </div>
+              
+        
+
+        <div class="product">
+            <div id="data" data-filter="breakfast">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <img src="./assets/unsplash_ZuIDLSz3XLg 2.png" data-filter="breakfast">
+            </div>
+            <div id="data" data-filter="breakfast">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <img src="./assets/unsplash_ZuIDLSz3XLg 2.png" data-filter="breakfast">
+            </div>
+            <div id="data" data-filter="breakfast">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <img src="./assets/unsplash_ZuIDLSz3XLg 2.png" data-filter="breakfast">
+            </div>
+            <div id="data" data-filter="dinner">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <img src="./assets/unsplash_ZuIDLSz3XLg 2.png" data-filter="dinnerss">
+            </div>
+            <div id="data" data-filter="dinnerss">
+                <h4>Lorem ipsum dolor sit.</h4>
+                <img src="./assets/unsplash_ZuIDLSz3XLg.png" data-filter="food">
+            </div>
+            <div id="data" data-filter="lunchess">
+                 <h4>Lorem ipsum dolor sit.</h4>
+                <img src="./assets/unsplash_ZuIDLSz3XLg 2.png" data-filter="food">
+            </div>
+            <div id="data" data-filter="cheap">
+                 <h4>Lorem ipsum dolor sit.</h4>
+                <img src="./assets/unsplash_ZuIDLSz3XLg 2.png" data-filter="food">
+            </div>
+            <div id="data" data-filter="dinnerss">
+                 <h4>Lorem ipsum dolor sit.</h4>
+                <img src="./assets/unsplash_ZuIDLSz3XLg 2.png" data-filter="food">
+            </div>
+            <div id="data" data-filter="moderate">
+                 <h4>Lorem ipsum dolor sit.</h4>
+                <img src="./assets/unsplash_ZuIDLSz3XLg 2.png" data-filter="food">
+            </div>
+            <div id="data" data-filter="moderate">
+                 <h4>Lorem ipsum dolor sit.</h4>
+                <img src="./assets/unsplash_ZuIDLSz3XLg 2.png" data-filter="food">
+            </div>
+          
+        
+
+    </section>
+
+    <script>
+        const liItem = document.querySelectorAll('ul li');
+        const imgItem = document.querySelectorAll('.product div');
+
+        liItem.forEach(li => {
+           li.onclick = function() {
+            //active
+            liItem.forEach(li => {
+                li.className = "active";
+            })
+            li.className = "active";
+
+            //Filter
+            const value = li.textContent;
+            imgItem.forEach(img => {
+                img.style.display = 'none';
+                if (img.getAttribute('data-filter') == value.toLowerCase() || value == "All Menu") {
+                    img.style.display = 'block';
+                }
+            })
+           }
+        });
+    </script>
+</body>
+</html>
